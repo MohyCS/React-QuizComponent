@@ -2,15 +2,36 @@
   "quiz_questions": [
     {
       "id": 1,
-      "instruction_text": "How many continents are there on Planet Earth?",
-      "answer_options": ["5", "6", "7", "8"],
-      "answer": "7"
+      "instruction_text": "You are developing a solution using Azure Functions and Kubernetes. You must secure your application by using an AAD account that has full access to all namespaces of the Azure Kubernetes Service (AKS) cluster. What are two ways you can achieve this?",
+      "answer_options": [
+                          "Use an existing Azure AD principal and register the principal in Key Vault", 
+                          "Create a Service Principal with a ClusterRole binding", 
+                          "Enable Managed Service Identity (MSI) in the Azure Function", 
+                          "Create an Azure AD role to allow access to all namespaces"
+                        ],
+      "answer": "Enable Managed Service Identity (MSI) in the Azure Function"
     },
     {
       "id": 2,
-      "instruction_text": "What's your favorite number?",
-      "answer_options": ["1", "2", "3", "4"],
-      "answer": "4"
+      "instruction_text": "You are developing an Azure Batch job and have created a pool of compute nodes. You are using C# code and the Batch SDK. You need to choose the right class and its method to create the batch job to the Batch service. Which method should you use?",
+      "answer_options": [
+                          "JobOperations.CreateJob()", 
+                          "JobOperations.EnableJobAsync(String, lEnumerable<BatchClientBehavior>, CancellationToken)", 
+                          "CloudJob.Enable(IEnumerable<BatchClientBehavior>)", 
+                          "CloudJob.CommitAsync(IEnumerable<BatchClientBehavior>, CancellationToken)"
+                        ],
+      "answer": "JobOperations.CreateJob()"
+    },
+    {
+      "id": 3,
+      "instruction_text": "You need to update the properties of an Azure Batch job using CLI. Which command should you run?",
+      "answer_options": [
+                          "az batch pool set", 
+                          "az batch create", 
+                          "az batch pool create", 
+                          "az batch job set"
+                        ],
+      "answer": "az batch job set"
     }
   ]
 }
