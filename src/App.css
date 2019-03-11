@@ -1,8 +1,76 @@
+main {
+  background-color: rgba(255, 60, 0, 0.904);
+}
+
+.entireQuestionArea {
+  width: 80%;
+  border: 5px solid lightblue;
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  border-radius: 5px;
+  -moz-border-radius: 10px;
+  background-color: white;
+}
+
+nav {
+  background-color: white;
+}
+
+.azure203 {
+  font-size: 3.5em;
+  float: left;
+  color: white;
+  margin-left: 120px;
+}
+
+a {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5em;
+  color: rgba(255, 60, 0, 0.904);
+  top: 30px;
+  margin-right: 5%;
+  font-weight: 500;
+  position: relative;
+  float: right;
+}
+
+img {
+  margin-left: 3%;
+  width: 15%;
+}
+.questionNumber {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5em;
+  margin-left: 100px;
+  margin-right: 15px;
+  font-weight: 500;
+}
+.questionDiv {
+  width: 80%;
+  border-top: 0.4px solid rgba(0, 0, 0, 0.637);
+  border-left: 1px solid rgba(0, 0, 0, 0.637);
+  border-right: 1px solid rgba(0, 0, 0, 0.637);
+  border-bottom: 5px solid rgba(0, 0, 0, 0.637);
+  margin: auto;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  background-color: white;
+}
+
+.instruction {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5em;
+  margin: auto;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-weight: 500;
+
+}
+
 .QuizQuestion {
   display: flex;
-  justify-content: center;
-  font-size: 2em;
-  text-align: center;
+  text-align: left;  
 }
 .QuizEnd {
   display: flex;
@@ -17,19 +85,30 @@
   padding-top: 20px;
 }
 ul {
-  padding: 0;
-  margin: 0;
+  padding-right: 50px;
+  margin: 50px;
+  margin-left: 90px;
+  list-style: upper-alpha;
 }
 .buttons {
   display: flex;
-  justify-content: center;
-  text-align: center;
+  justify-content: left;
+  position: center;
 }
 button {
-  margin: 0.6em auto;
-  font-size: 1.5em;
+  margin: 1em;
+  font-size: 1.3em;
+  font-weight: 500;
   display: block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(155, 215, 255);
+  border-radius:10px;
+  
 }
 .error {
   color: red;
+}
+
+.copyright {
+  background-color: blue;
 }
